@@ -8,27 +8,40 @@
 
 ---
 
+# Sistem Pelacakan Alumni
+
+**Nama:** Hanum Zaqiah Permatasari  
+**NIM:** 202210370311125  
+**Kelas:** Rekayasa Kebutuhan A  
+
+**Link Publikasi Web:** [Dashboard Alumni](http://alumnitrack.kesug.com/sistem-pelacakan-alumni/dashboard.php)
+
+---
+
 ## Deskripsi Web
 
 Sistem ini dibuat untuk **melacak alumni** dari suatu institusi, mencatat data pribadi, status pelacakan, dan hasil pencarian pekerjaan atau profil profesional mereka. Web ini dibangun menggunakan **PHP dan MySQL**, dengan tampilan sederhana menggunakan CSS.
 
-### Fitur Utama
+---
 
-1. **Dashboard**  
-   - Halaman utama menampilkan menu navigasi ke semua bagian sistem.
+## Tabel Pengujian Aplikasi
 
-2. **Data Alumni**  
-   - Menampilkan daftar alumni.  
-   - Menambahkan, mengedit, atau menghapus data alumni.
+| No | Fitur / Halaman            | Input / Aksi                                   | Ekspektasi Hasil                                      | Status |
+|----|----------------------------|-----------------------------------------------|------------------------------------------------------|--------|
+| 1  | Dashboard                  | Buka dashboard                                | Menu sidebar tampil, tombol aktif sesuai halaman    | ✅     |
+| 2  | Data Alumni - Tambah        | Isi nama, universitas, jurusan, tahun lulus  | Data tersimpan di database, muncul di daftar alumni | ✅     |
+| 3  | Data Alumni - Edit          | Edit salah satu alumni                        | Data berubah sesuai input, tombol update berhasil   | ✅     |
+| 4  | Data Alumni - Hapus         | Klik tombol hapus                             | Data terhapus dari database, kembali ke daftar     | ✅     |
+| 5  | Pelacakan Alumni            | Klik tombol "Lacak" pada alumni              | Status & persentase diperbarui, pointer bukti dibuat | ✅     |
+| 6  | Hasil Pelacakan             | Edit pekerjaan, perusahaan, lokasi           | Data tersimpan, tabel update berhasil              | ✅     |
+| 7  | Hasil Pelacakan             | Lihat pointer bukti                            | Link terbuka di tab baru ke sumber terkait         | ✅     |
+| 8  | Navigasi Kembali Dashboard  | Klik tombol "Kembali ke Dashboard"           | Kembali ke dashboard tanpa error                    | ✅     |
+| 9  | Validasi Input              | Kosongkan field saat tambah / edit alumni    | Muncul pesan error, data tidak tersimpan           | ✅     |
 
-3. **Pelacakan Alumni**  
-   - Melacak alumni secara otomatis dengan keyword nama, universitas, dan jurusan.  
-   - Memberikan **status** dan **persentase confidence** berdasarkan sumber yang ditemukan.
+---
 
-4. **Hasil Pelacakan**  
-   - Menampilkan semua hasil pelacakan.  
-   - Dapat melakukan update pekerjaan, perusahaan, dan lokasi.  
-   - Menyediakan link bukti ke sumber online.
+## Struktur Folder Proyek
+
 
 ---
 
@@ -39,9 +52,6 @@ Sistem ini dibuat untuk **melacak alumni** dari suatu institusi, mencatat data p
 - Alasan perubahan:
   - Nama lengkap alumni jarang muncul di **Instagram dan Facebook**, sehingga hasil pelacakan menjadi sedikit atau tidak valid.  
   - Sumber baru memberikan hasil yang lebih **relevan dan akurat** untuk nama lengkap alumni.
-
----
-
 
 ---
 
