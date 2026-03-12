@@ -1,12 +1,3 @@
-# Sistem Pelacakan Alumni
-
-**Nama:** Hanum Zaqiah Permatasari  
-**NIM:** 202210370311125  
-**Kelas:** Rekayasa Kebutuhan A  
-
-**Link Publikasi Web:** [Dashboard Alumni](http://alumnitrack.kesug.com/sistem-pelacakan-alumni/dashboard.php)
-
----
 
 # Sistem Pelacakan Alumni
 
