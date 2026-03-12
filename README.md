@@ -28,15 +28,16 @@ Sistem ini dibuat untuk **melacak alumni** dari suatu institusi, mencatat data p
 
 | No | Fitur / Halaman            | Input / Aksi                                   | Ekspektasi Hasil                                      | Status |
 |----|----------------------------|-----------------------------------------------|------------------------------------------------------|--------|
-| 1  | Dashboard                  | Buka dashboard                                | Menu sidebar tampil, tombol aktif sesuai halaman    | ✅     |
-| 2  | Data Alumni - Tambah        | Isi nama, universitas, jurusan, tahun lulus  | Data tersimpan di database, muncul di daftar alumni | ✅     |
-| 3  | Data Alumni - Edit          | Edit salah satu alumni                        | Data berubah sesuai input, tombol update berhasil   | ✅     |
-| 4  | Data Alumni - Hapus         | Klik tombol hapus                             | Data terhapus dari database, kembali ke daftar     | ✅     |
-| 5  | Pelacakan Alumni            | Klik tombol "Lacak" pada alumni              | Status & persentase diperbarui, pointer bukti dibuat | ✅     |
-| 6  | Hasil Pelacakan             | Edit pekerjaan, perusahaan, lokasi           | Data tersimpan, tabel update berhasil              | ✅     |
-| 7  | Hasil Pelacakan             | Lihat pointer bukti                            | Link terbuka di tab baru ke sumber terkait         | ✅     |
-| 8  | Navigasi Kembali Dashboard  | Klik tombol "Kembali ke Dashboard"           | Kembali ke dashboard tanpa error                    | ✅     |
-| 9  | Validasi Input              | Kosongkan field saat tambah / edit alumni    | Muncul pesan error, data tidak tersimpan           | ✅     |
+| 1  | Login                      | Masukkan username: admin, password: admin     | Berhasil login, diarahkan ke dashboard               | ✅     |
+| 2  | Dashboard                  | Buka dashboard                                | Menu sidebar tampil, tombol aktif sesuai halaman    | ✅     |
+| 3  | Data Alumni - Tambah        | Isi nama, universitas, jurusan, tahun lulus  | Data tersimpan di database, muncul di daftar alumni | ✅     |
+| 4  | Data Alumni - Edit          | Edit salah satu alumni                        | Data berubah sesuai input, tombol update berhasil   | ✅     |
+| 5  | Data Alumni - Hapus         | Klik tombol hapus                             | Data terhapus dari database, kembali ke daftar     | ✅     |
+| 6  | Pelacakan Alumni            | Klik tombol "Lacak" pada alumni              | Status & persentase diperbarui, pointer bukti dibuat | ✅     |
+| 7  | Hasil Pelacakan             | Edit pekerjaan, perusahaan, lokasi           | Data tersimpan, tabel update berhasil              | ✅     |
+| 8  | Hasil Pelacakan             | Lihat pointer bukti                            | Link terbuka di tab baru ke sumber terkait         | ✅     |
+| 9  | Navigasi Kembali Dashboard  | Klik tombol "Kembali ke Dashboard"           | Kembali ke dashboard tanpa error                    | ✅     |
+| 10  | Validasi Input              | Kosongkan field saat tambah / edit alumni    | Muncul pesan error, data tidak tersimpan           | ✅     |
 
 ---
 
